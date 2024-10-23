@@ -1,0 +1,28 @@
+let grupo=["NICOLAS VIEIRA","RAUL BONET","RENATO DE LIMA",
+           "SAMUEL DIAS","WILLYAN GABRIEL",
+           "GABRIELLY FERREIRA",
+           "LAYO KAUE","MATEUS ANTUNES"];
+console.log(grupo);
+//nicolas não veio//
+grupo.push("MATEUS ANTUNES BELO");
+//raul//
+grupo.unshift("LAYO KAUE BENEVENUTO DE LIMA");
+console.log(grupo);
+//renato//
+grupo.shift('');
+console.log(grupo);
+//samuel//
+grupo.pop('');
+console.log(grupo);
+//willyan//
+grupo.splice(3,2,"RAUL BONET","RENATO DE LIMA");
+console.log(grupo);
+//gabrielly//
+grupo.push("JOSÉ HENRIQUE MILTON GANGUINI");
+console.log(grupo);
+//layo//
+grupo.unshift("KEVIN RIBEIRO DE PAULA");
+console.log(grupo);
+//mateus//
+grupo.splice(2,1);
+console.log(grupo)
